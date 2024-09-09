@@ -1,3 +1,5 @@
 # Eating_recognition_with_wav2vec2
 
 wav2vec2を用いた食行動音声認識
+
+data_prepareでモデルの学習に必要なデータセットを準備する
