@@ -15,10 +15,11 @@
 2. **モデルのトレーニング**  
    `model` フォルダ内のスクリプトを使用してモデルをトレーニングします。
 
-```bash
-torchrun --nproc_per_node=4 train_with_wav2vec.py config.yaml --find_unused_parameters 
-```
---nproc_per_nodeには使用するGPUの数を指定。 --test_onlyを指定すればテストのみ可能。
+   学習実行
+   ```bash
+   torchrun --nproc_per_node=4 train_with_wav2vec.py config.yaml --find_unused_parameters 
+   ```
+   --nproc_per_nodeには使用するGPUの数を指定。 --test_onlyを指定すればテストのみ可能。
 
 
 ---
