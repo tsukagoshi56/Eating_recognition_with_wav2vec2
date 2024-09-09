@@ -19,7 +19,7 @@ test_ebd_flame_file: !ref <output_folder>/flame_test.txt
 wav2vec2_hub: facebook/wav2vec2-large-xlsr-53
 wav2vec2_folder: !ref <save_folder>/wav2vec2_checkpoint
 
-# Data files
+# Data files → 指定したフォルダに合わせる
 data_folder: "./../data_csv" 
 train_csv: !ref <data_folder>/train_test_9_6.csv
 valid_csv: !ref <data_folder>/val_test_9_6.csv
