@@ -1,1 +1,3 @@
 # Eating_recognition_with_wav2vec2
+
+wav2vec2を用いた食行動音声認識
