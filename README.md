@@ -1,6 +1,4 @@
-# Eating_recognition_with_wav2vec2
-
-**Wav2Vec2を用いた食行動音声認識**
+#Wav2Vec2を用いた食行動音声認識
 
 ---
 
@@ -16,6 +14,15 @@
 
 2. **モデルのトレーニング**  
    `model` フォルダ内のスクリプトを使用してモデルをトレーニングします。
+
+   
+### 出力されるコードブロック
+
+```bash
+torchrun --nproc_per_node=4 train_with_wav2vec.py config.yaml --find_unused_parameters 
+```
+--nproc_per_nodeには使用するGPUの数を指定。 --test_onlyを指定すればテストのみ可能。
+
 
 ---
 
