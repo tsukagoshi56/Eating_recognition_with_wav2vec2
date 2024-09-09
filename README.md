@@ -1,4 +1,4 @@
-#Wav2Vec2を用いた食行動音声認識
+# Wav2Vec2を用いた食行動音声認識
 
 ---
 
@@ -27,7 +27,6 @@ torchrun --nproc_per_node=4 train_with_wav2vec.py config.yaml --find_unused_para
 
 - `data_prepare`: データセットを準備するスクリプト
 - `model`: モデルの学習と評価に関連するコード
-- `README.md`: このドキュメント
 
 ---
 
