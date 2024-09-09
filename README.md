@@ -15,9 +15,6 @@
 2. **モデルのトレーニング**  
    `model` フォルダ内のスクリプトを使用してモデルをトレーニングします。
 
-   
-### 出力されるコードブロック
-
 ```bash
 torchrun --nproc_per_node=4 train_with_wav2vec.py config.yaml --find_unused_parameters 
 ```
